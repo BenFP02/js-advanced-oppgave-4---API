@@ -1,4 +1,5 @@
-import { config, renderPage } from "./index.js";
+import { config } from "./config.js";
+import { renderPage } from "./renderPage.js";
 
 export const rotatePokemonButton = () => {
   const buttonElement = document.createElement("button");

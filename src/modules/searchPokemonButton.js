@@ -1,4 +1,6 @@
-import { config, renderPage, fetchPokemon } from "./index.js";
+import { config } from "./config.js";
+import { renderPage } from "./renderPage.js";
+import { fetchPokemon } from "./fetchPokemon.js";
 
 export const searchPokemonButton = () => {
   const buttonElement = document.createElement("button");

@@ -1,12 +1,10 @@
 import { config } from "./config.js";
-import {
-  fetchRandomPokemonButton,
-  rotatePokemonButton,
-  toggleShinyButton,
-  searchPokemonInput,
-  searchPokemonButton,
-  pokemonImage,
-} from "./index.js";
+import { fetchRandomPokemonButton } from "./fetchRandomPokemonButton.js";
+import { rotatePokemonButton } from "./rotatePokemon.js";
+import { toggleShinyButton } from "./toggleShinyButton.js";
+import { searchPokemonInput } from "./searchPokemonInputs.js";
+import { searchPokemonButton } from "./searchPokemonButton.js";
+import { pokemonImage } from "./pokemonImage.js";
 
 export const renderPage = (pokemon) => {
   config.pokemonContainer.innerHTML = "";
